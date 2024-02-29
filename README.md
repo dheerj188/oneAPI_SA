@@ -1,4 +1,4 @@
-# oneAPI_SA
+# oneAPI_SA : FedML Project
 
 Project: Federated Model Learning (FedML): Federated Deep Learning Models on the edge for enabling Continual Learning at the cloud. 
 
