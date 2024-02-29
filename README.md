@@ -4,7 +4,7 @@ Project: Federated Model Learning (FedML): Federated Deep Learning Models on the
 
 Description: Deep learning (DL) models and are usually deployed on cloud systems due to their large sizes and global accessibility. 
 with the demand of LLMs rapidly increasing for addressing latest issues, DL models cannot run inference with static parameters. Heterogeneous and latest data becomes key to keep the models updated with latest parameters. 
-
+ 
 FedML operates on two key aspects of Deep Learning to address the above issues:
 
 1) Federated Learning (FL) for obtaining edge heterogeneous data: We collaborate with various edge data generators to acquire the trends of the data. Since, the generated data is private to the cloud, applications can utilize FL to train their DL
