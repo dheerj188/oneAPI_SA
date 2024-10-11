@@ -1,17 +1,17 @@
-# oneAPI_SA : FedML Project
+# FedML Project
 
 Project: Federated Model Learning (FedML): Federated Deep Learning Models on the edge for enabling Continual Learning at the cloud.
 
 Description: Deep learning (DL) models are usually deployed on cloud systems due to their large sizes and global accessibility.
-With the demand of LLMs rapidly increasing for addressing latest issues, DL models cannot run inference with static parameters. Heterogeneous and latest data becomes key to keep the models updated with the latest parameters.
+With the demand for LLMs rapidly increasing for addressing the latest issues, DL models cannot run an inference with static parameters. Heterogeneous and latest data becomes key to keep the models updated with the latest parameters.
  
 FedML operates on two key aspects of Deep Learning to address the above issues:
 
-1) Federated Learning (FL) for obtaining edge heterogeneous data: We collaborate with various edge data generators to acquire the trends of the data. Since, the generated data is private to the cloud, applications can utilize FL to train their DL
+1) Federated Learning (FL) for obtaining edge heterogeneous data: We collaborate with various edge data generators to acquire the trends of the data. Since the generated data is private to the cloud, applications can utilize FL to train their DL
  
-2) Continuous Learning at the cloud: Global DL model running on the cloud will be updated with the Federated Edge Models, by this way the global server model keeps itself up to date for latest queries and information demand.
+2) Continuous Learning at the cloud: The global DL model running on the cloud will be updated with the Federated Edge Models, by this way the global server model keeps itself up to date for the latest queries and information demand.
 
-OneAPI Enabled Optimization and Inference: To optimize DL systems, we utilize rich libraries provided by Intel Extension for Pytorch. This enables us to employ Vector Neural Network Instruction set (VNNI) and Advanced Matrix Extensions (AMX) to accelerate training and inference on edge and cloud systems respectively.
+OneAPI Enabled Optimization and Inference: To optimize DL systems, we utilize rich libraries provided by Intel Extension for Pytorch. This enables us to employ Vector Neural Network Instruction Set (VNNI) and Advanced Matrix Extensions (AMX) to accelerate training and inference on edge and cloud systems respectively.
 
 Intel Extension For Pytorch: https://intel.github.io/intel-extension-for-pytorch/cpu/2.2.0+cpu/tutorials/introduction.html
 
